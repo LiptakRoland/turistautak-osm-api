@@ -682,7 +682,7 @@ function poiTagsOSM ($tags) {
 			break;
 
 		case 0xab04: // dagonya
-			$tags['natural'] = 'mud';
+			$tags['natural'] = 'wallow';
 			if (@$tags['Label'] == 'Dagonya') $name = false;
 			break;
 

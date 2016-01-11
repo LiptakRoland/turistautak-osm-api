@@ -530,6 +530,14 @@ function poiTagsOSM ($tags) {
 			}
 			break;
 
+		case 0xaa01: // bánya
+			$tags['man_made'] = 'adit';
+			break;
+		
+		case 0xaa02: // feltárás
+			$tags['landuse'] = 'quarry';
+			break;
+		
 		case 0xaa03: // gyár
 			$tags['man_made'] = 'works';
 			$name = false;
